@@ -122,24 +122,24 @@
                     </h2>
                     <hr>
                     <p>Para cualquier consulta, podes dejarme un mensaje para que me pueda poner en contacto con vos. Record&aacute;... Siempre hay tiempo para una pausa!</p>
-                    <form role="form" action="mailto:pablo.gabriel.federico@gmail.com" method="post" enctype="text/plain">
+                    <form role="form" action="mailto:pablo.gabriel.federico@gmail.com?subject=subject&body=body'" method="post" enctype="text/plain">
                         <div class="row">
                             <div class="form-group col-lg-4">
                                 <label>Nombre</label>
-                                <input type="text" class="form-control">
+                                <input type="text" class="form-control" name="Nombre">
                             </div>
                             <div class="form-group col-lg-4">
                                 <label>Email</label>
-                                <input type="email" class="form-control">
+                                <input type="email" class="form-control" name="Email">
                             </div>
                             <div class="form-group col-lg-4">
                                 <label>Numero de telefono</label>
-                                <input type="tel" class="form-control">
+                                <input type="tel" class="form-control" name="Telefono">
                             </div>
                             <div class="clearfix"></div>
                             <div class="form-group col-lg-12">
                                 <label>Mensaje</label>
-                                <textarea class="form-control" rows="6"></textarea>
+                                <textarea class="form-control" rows="6" name="Mnesaje"></textarea>
                             </div>
                             <div class="form-group col-lg-12">
                                 <input type="hidden" name="save" value="contact">
